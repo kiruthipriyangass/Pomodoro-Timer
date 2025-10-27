@@ -1,0 +1,45 @@
+
+.container{
+    margin: 0 auto;
+    max-width:400px;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.title{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: brown;
+    
+}
+
+.timer{
+    font-size: 70px;
+    color: indigo;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: black;
+    background-color:wheat;
+    border: none;
+    border-radius:8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: opacity .3s;
+}
+button:hover{
+    opacity: .7;
+}
+#start{
+    background-color: lightgreen;
+
+}
+#stop{
+    background-color: red;
+}
+#reset{
+    background-color: wheat;
+}
